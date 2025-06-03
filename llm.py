@@ -4,7 +4,7 @@ from groq import Groq
 import subprocess
 
 # Set your Groq API key here or ensure it's set in your environment
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "yo api key"
 
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
